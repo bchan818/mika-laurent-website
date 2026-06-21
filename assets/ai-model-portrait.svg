@@ -1,0 +1,62 @@
+<svg width="900" height="1200" viewBox="0 0 900 1200" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Elegant AI model portrait</title>
+  <desc id="desc">A previous tasteful stylized portrait placeholder for Mika Laurent.</desc>
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="22%" r="74%">
+      <stop offset="0" stop-color="#FFF9EF"/>
+      <stop offset="0.42" stop-color="#EEDBC4"/>
+      <stop offset="1" stop-color="#CDA986"/>
+    </radialGradient>
+    <linearGradient id="skin" x1="326" y1="216" x2="578" y2="639" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF0E5"/>
+      <stop offset="0.55" stop-color="#F3CDBD"/>
+      <stop offset="1" stop-color="#DDAE9B"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="246" y1="160" x2="662" y2="754" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#39221A"/>
+      <stop offset="0.48" stop-color="#24140F"/>
+      <stop offset="1" stop-color="#5D3528"/>
+    </linearGradient>
+    <linearGradient id="dress" x1="224" y1="775" x2="704" y2="1200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF6EA"/>
+      <stop offset="0.55" stop-color="#DCC3A5"/>
+      <stop offset="1" stop-color="#A98565"/>
+    </linearGradient>
+    <filter id="softShadow" x="101" y="91" width="705" height="1115" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="32" stdDeviation="28" flood-color="#6F4D35" flood-opacity="0.24"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="1200" fill="url(#bgGlow)"/>
+  <circle cx="172" cy="160" r="112" fill="#FFFDF8" fill-opacity="0.36"/>
+  <circle cx="753" cy="292" r="154" fill="#FFFDF8" fill-opacity="0.22"/>
+  <path d="M121 1008C270 918 415 917 571 1006C689 1073 774 1075 858 1029V1200H121V1008Z" fill="#FFF8EF" fill-opacity="0.28"/>
+
+  <g filter="url(#softShadow)">
+    <path d="M266 696C178 778 138 964 117 1200H793C768 953 718 788 636 699C589 660 525 641 453 642C379 642 313 653 266 696Z" fill="url(#dress)"/>
+    <path d="M315 792C373 843 533 843 591 790L626 1200H276L315 792Z" fill="#F9EBDD" fill-opacity="0.42"/>
+
+    <path d="M351 606C354 674 374 732 453 734C531 735 552 677 555 608C519 643 385 643 351 606Z" fill="url(#skin)"/>
+    <path d="M350 625C384 661 521 662 555 626C550 672 518 699 453 700C390 699 357 672 350 625Z" fill="#C98E7E" fill-opacity="0.18"/>
+
+    <path d="M242 450C210 300 282 151 445 135C622 119 707 283 666 466C650 534 649 621 704 704C610 686 545 634 520 575L242 450Z" fill="url(#hair)"/>
+    <path d="M260 433C223 569 287 674 438 681C587 688 651 583 628 431C604 275 520 207 443 208C360 209 286 277 260 433Z" fill="url(#skin)"/>
+    <path d="M282 418C342 390 524 287 603 414C589 279 518 187 420 194C330 201 273 285 282 418Z" fill="url(#hair)"/>
+    <path d="M280 432C253 455 245 511 267 543C281 563 298 554 298 526C298 490 292 457 280 432Z" fill="#F0C7B8"/>
+    <path d="M626 432C653 455 661 511 639 543C625 563 608 554 608 526C608 490 614 457 626 432Z" fill="#EABDAC"/>
+
+    <path d="M333 431C373 405 411 411 437 438" stroke="#4D2E23" stroke-width="14" stroke-linecap="round"/>
+    <path d="M472 438C502 410 545 406 583 431" stroke="#4D2E23" stroke-width="14" stroke-linecap="round"/>
+    <ellipse cx="388" cy="472" rx="45" ry="33" fill="#FFF8EF"/>
+    <ellipse cx="521" cy="472" rx="45" ry="33" fill="#FFF8EF"/>
+    <ellipse cx="392" cy="474" rx="22" ry="25" fill="#3A2219"/>
+    <ellipse cx="517" cy="474" rx="22" ry="25" fill="#3A2219"/>
+    <circle cx="400" cy="463" r="8" fill="white"/>
+    <circle cx="525" cy="463" r="8" fill="white"/>
+    <path d="M454 487C447 521 438 544 426 557C442 570 464 570 480 557" stroke="#B87C70" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M399 603C431 625 477 626 510 603" stroke="#A85F60" stroke-width="11" stroke-linecap="round"/>
+    <path d="M355 545C329 536 315 518 311 496" stroke="#D9A392" stroke-width="7" stroke-linecap="round" opacity="0.5"/>
+    <path d="M552 545C578 536 592 518 596 496" stroke="#D9A392" stroke-width="7" stroke-linecap="round" opacity="0.5"/>
+    <path d="M292 407C310 242 414 154 526 205C435 205 355 286 292 407Z" fill="#6D3E2F" fill-opacity="0.3"/>
+  </g>
+</svg>
