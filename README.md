@@ -9,6 +9,8 @@ A clean, soft beige landing page concept for Mika Laurent, an AI fashion/lifesty
 - `assets/mika-laurent-hero.jpg` — realistic AI model hero visual
 - `assets/gallery/*.jpg` — six-gallery image set for Soft Studio, Luxury Editorial, Modern Casual, Beauty Close-Up, Fashion Profile, and Brand Campaign
 - `assets/ai-model-portrait.svg` — previous illustrated placeholder backup
+- `assets/favicon.svg` — site favicon
+- `scripts/main.js` — mailto contact-form behavior
 - `scripts/verify.py` — local verification script
 
 ## Run locally

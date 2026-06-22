@@ -12,6 +12,8 @@ REQUIRED_FILES = [
     ROOT / "assets" / "gallery" / "beauty-closeup.jpg",
     ROOT / "assets" / "gallery" / "fashion-profile.jpg",
     ROOT / "assets" / "gallery" / "brand-campaign.jpg",
+    ROOT / "assets" / "favicon.svg",
+    ROOT / "scripts" / "main.js",
     ROOT / "assets" / "ai-model-portrait.svg",
 ]
 REQUIRED_TEXT = [
@@ -21,6 +23,10 @@ REQUIRED_TEXT = [
     "Portfolio",
     "Brand Visuals",
     "Project idea",
+    "og:image",
+    "twitter:card",
+    "data-contact-form",
+    "site-footer",
     "soft beige",
     "Explore the Gallery",
     "Meet Her",

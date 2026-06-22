@@ -5,15 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Come See Me — a clean, soft beige AI model landing page for modern visual storytelling."
+      content="Meet Mika Laurent, an elegant AI fashion model for soft beige editorial visuals, lifestyle campaigns, and digital brand storytelling."
     />
-    <title>Come See Me | AI Model</title>
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#ead9c2" />
+    <link rel="canonical" href="https://bchan818.github.io/mika-laurent-website/" />
+    <meta property="og:title" content="Mika Laurent | Come See Me" />
+    <meta property="og:description" content="A soft beige AI fashion model website for editorial visuals, lifestyle campaigns, and digital storytelling." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://bchan818.github.io/mika-laurent-website/" />
+    <meta property="og:image" content="https://bchan818.github.io/mika-laurent-website/assets/mika-laurent-hero.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Mika Laurent | Come See Me" />
+    <meta name="twitter:description" content="Elegant AI fashion model visuals with a clean, soft beige editorial identity." />
+    <meta name="twitter:image" content="https://bchan818.github.io/mika-laurent-website/assets/mika-laurent-hero.jpg" />
+    <title>Mika Laurent | Come See Me AI Fashion Model</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -130,22 +143,37 @@
       <section id="contact" class="cta section-shell">
         <p class="eyebrow">Start the experience</p>
         <h2>Step into a world where beauty, technology, and imagination meet.</h2>
-        <form class="contact-form" aria-label="Contact Mika Laurent booking form">
+        <form class="contact-form" aria-label="Contact Mika Laurent booking form" data-contact-form>
           <label>
             <span>Name</span>
-            <input type="text" name="name" placeholder="Your name" />
+            <input type="text" name="name" placeholder="Your name" autocomplete="name" required />
           </label>
           <label>
             <span>Email</span>
-            <input type="email" name="email" placeholder="you@example.com" />
+            <input type="email" name="email" placeholder="you@example.com" autocomplete="email" required />
           </label>
           <label class="full">
             <span>Project idea</span>
-            <textarea name="message" rows="4" placeholder="Tell us about the campaign, gallery, or concept you want to create."></textarea>
+            <textarea name="message" rows="4" placeholder="Tell us about the campaign, gallery, or concept you want to create." required></textarea>
           </label>
-          <a class="button primary" href="mailto:hello@example.com">Contact</a>
+          <button class="button primary" type="submit">Contact</button>
+          <p class="form-status" data-form-status aria-live="polite"></p>
         </form>
       </section>
     </main>
+
+    <footer class="site-footer section-shell">
+      <a class="brand" href="#top" aria-label="Back to Mika Laurent home">
+        <span class="brand-mark">ML</span>
+        <span>Mika Laurent</span>
+      </a>
+      <p>AI fashion model visuals for soft editorial campaigns and modern digital storytelling.</p>
+      <div class="footer-links" aria-label="Footer links">
+        <a href="#gallery">Gallery</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="mailto:hello@example.com">Email</a>
+      </div>
+    </footer>
+    <script src="scripts/main.js"></script>
   </body>
 </html>
