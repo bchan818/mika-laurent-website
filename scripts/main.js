@@ -23,10 +23,11 @@ document.addEventListener('DOMContentLoaded', () => {
       message || 'Not provided',
     ].join('\n'));
 
-    window.location.href = `mailto:hello@example.com?subject=${subject}&body=${body}`;
+    const recipient = form.dataset.contactEmail || 'hello@example.com';
+    window.location.href = `mailto:${encodeURIComponent(recipient)}?subject=${subject}&body=${body}`;
 
     if (status) {
-      status.textContent = 'Your email app should open with the inquiry details. Replace hello@example.com with your real email when ready.';
+      status.textContent = `Your email app should open with the inquiry details. Current recipient: ${recipient}.`;
     }
   });
 });

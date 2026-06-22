@@ -209,6 +209,7 @@ figcaption strong {
 }
 
 .about,
+.story,
 .gallery-section,
 .portfolio,
 .cta {
@@ -242,6 +243,39 @@ h2 {
 .about > p {
   font-size: 1.14rem;
   margin: 34px 0 0;
+}
+
+.story {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 28px;
+  align-items: stretch;
+  border-top: 1px solid rgba(128, 107, 88, 0.16);
+}
+
+.disclosure-card {
+  align-self: end;
+  padding: 30px;
+  border-radius: 30px;
+  background: rgba(47, 36, 29, 0.92);
+  color: var(--cream);
+  box-shadow: 0 24px 70px rgba(47, 36, 29, 0.18);
+}
+
+.disclosure-card span {
+  display: inline-flex;
+  margin-bottom: 18px;
+  color: var(--beige);
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.75rem;
+  font-weight: 800;
+}
+
+.disclosure-card p {
+  margin: 0;
+  color: rgba(251, 246, 237, 0.86);
+  line-height: 1.75;
 }
 
 .section-heading {
@@ -385,6 +419,7 @@ h2 {
   .hero,
   .model-card,
   .about,
+  .story,
   .gallery-section,
   .portfolio,
   .cta {
@@ -434,6 +469,7 @@ h2 {
 
 .footer-links {
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-end;
   gap: 20px;
   font-weight: 700;
@@ -464,6 +500,7 @@ h2 {
 
   .hero,
   .about,
+  .story,
   .gallery-grid,
   .portfolio-grid,
   .contact-form,
