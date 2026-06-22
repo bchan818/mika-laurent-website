@@ -39,3 +39,5 @@ If using the Vercel dashboard, upload/import this folder as a static project:
 `/Users/bchan8/Developer/ai-model-website`
 
 Note: The hero image is a realistic AI-generated portrait asset saved locally as `assets/mika-laurent-hero.jpg`.
+
+Contact inquiries are currently routed to `hellomikalaurent@gmail.com`.

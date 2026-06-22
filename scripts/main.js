@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
       message || 'Not provided',
     ].join('\n'));
 
-    const recipient = form.dataset.contactEmail || 'hello@example.com';
+    const recipient = form.dataset.contactEmail || 'hellomikalaurent@gmail.com';
     window.location.href = `mailto:${encodeURIComponent(recipient)}?subject=${subject}&body=${body}`;
 
     if (status) {
