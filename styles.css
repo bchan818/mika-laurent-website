@@ -212,6 +212,7 @@ figcaption strong {
 .story,
 .gallery-section,
 .portfolio,
+.social,
 .cta {
   position: relative;
   z-index: 1;
@@ -334,6 +335,43 @@ h2 {
   border-top: 1px solid rgba(128, 107, 88, 0.16);
 }
 
+.social {
+  border-top: 1px solid rgba(128, 107, 88, 0.16);
+}
+
+.social-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.social-grid article {
+  padding: 30px;
+  border-radius: 30px;
+  background: linear-gradient(160deg, rgba(255, 253, 248, 0.74), rgba(234, 217, 194, 0.38));
+  border: 1px solid rgba(128, 107, 88, 0.12);
+}
+
+.social-grid span {
+  color: var(--beige-deep);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.76rem;
+  font-weight: 800;
+}
+
+.social-grid h3 {
+  margin: 36px 0 12px;
+  font-size: 1.45rem;
+  letter-spacing: -0.045em;
+}
+
+.social-grid p {
+  margin: 0;
+  color: var(--taupe);
+  line-height: 1.7;
+}
+
 .portfolio-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -422,6 +460,7 @@ h2 {
   .story,
   .gallery-section,
   .portfolio,
+  .social,
   .cta {
     animation: fadeUp 700ms ease both;
   }
@@ -503,6 +542,7 @@ h2 {
   .story,
   .gallery-grid,
   .portfolio-grid,
+  .social-grid,
   .contact-form,
   .site-footer {
     grid-template-columns: 1fr;

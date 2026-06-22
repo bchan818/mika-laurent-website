@@ -14,6 +14,7 @@ REQUIRED_FILES = [
     ROOT / "assets" / "gallery" / "brand-campaign.jpg",
     ROOT / "assets" / "favicon.svg",
     ROOT / "scripts" / "main.js",
+    ROOT / "social-launch-kit.md",
     ROOT / "assets" / "ai-model-portrait.svg",
 ]
 REQUIRED_TEXT = [
@@ -25,6 +26,9 @@ REQUIRED_TEXT = [
     "not a real person",
     "Instagram",
     "TikTok",
+    "Social launch",
+    "@hellomikalaurent",
+    "YouTube",
     "Portfolio",
     "Brand Visuals",
     "Project idea",
