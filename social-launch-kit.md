@@ -52,6 +52,12 @@ AI-generated digital model. Mika Laurent is a fictional creative persona.
 
 ## First 9 Launch Posts
 
+Assets are saved in:
+
+```text
+assets/social/
+```
+
 ### Post 1 — Introduction
 Caption:
 ```text

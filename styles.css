@@ -372,6 +372,35 @@ h2 {
   line-height: 1.7;
 }
 
+.launch-plan {
+  margin-top: 18px;
+  padding: 32px;
+  border-radius: 30px;
+  background: rgba(47, 36, 29, 0.92);
+  color: var(--cream);
+  box-shadow: 0 24px 70px rgba(47, 36, 29, 0.16);
+}
+
+.launch-plan h3 {
+  margin: 0 0 20px;
+  font-size: 1.55rem;
+  letter-spacing: -0.045em;
+}
+
+.launch-plan ol {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px 22px;
+  margin: 0;
+  padding-left: 22px;
+  color: rgba(251, 246, 237, 0.86);
+  line-height: 1.6;
+}
+
+.launch-plan strong {
+  color: var(--white);
+}
+
 .portfolio-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -543,6 +572,7 @@ h2 {
   .gallery-grid,
   .portfolio-grid,
   .social-grid,
+  .launch-plan ol,
   .contact-form,
   .site-footer {
     grid-template-columns: 1fr;

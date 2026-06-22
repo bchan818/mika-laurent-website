@@ -12,6 +12,7 @@ A clean, soft beige landing page concept for Mika Laurent, an AI fashion/lifesty
 - `assets/favicon.svg` — site favicon
 - `scripts/main.js` — mailto contact-form behavior
 - `social-launch-kit.md` — recommended handles, bios, AI disclosure wording, first 9 launch posts, and social setup checklist
+- `assets/social/` — first 9 launch post visuals and text-card assets
 - `scripts/verify.py` — local verification script
 
 ## Run locally
