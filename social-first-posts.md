@@ -45,8 +45,14 @@ Inquiries: hellomikalaurent@gmail.com
 ## TikTok first pinned video
 
 Asset idea:
-- Use `assets/social/01-introduction.jpg` as a simple photo video.
-- Add slow zoom-in, soft beige background music, and text overlays.
+- Use the created vertical intro video:
+
+```text
+assets/social/mika-intro-short.mp4
+```
+
+- Backup source image: `assets/social/01-introduction.jpg`.
+- Video is 1080x1920, 12 seconds, with slow zoom and text overlays.
 
 On-screen text sequence:
 
@@ -77,8 +83,13 @@ Profile actions:
 ## YouTube first pinned Short
 
 Asset idea:
-- Use `assets/social/09-website-launch.svg` or `assets/social/01-introduction.jpg`.
-- Make a 10–15 second vertical Short.
+- Use the created vertical intro video:
+
+```text
+assets/social/mika-intro-short.mp4
+```
+
+- Backup asset: `assets/social/09-website-launch.svg` or `assets/social/01-introduction.jpg`.
 
 Short title:
 
