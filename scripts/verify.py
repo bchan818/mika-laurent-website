@@ -18,6 +18,7 @@ REQUIRED_FILES = [
     ROOT / "assets" / "social" / "09-website-launch.svg",
     ROOT / "scripts" / "main.js",
     ROOT / "social-launch-kit.md",
+    ROOT / "social-profile-links.md",
     ROOT / "assets" / "ai-model-portrait.svg",
 ]
 REQUIRED_TEXT = [
@@ -32,6 +33,8 @@ REQUIRED_TEXT = [
     "Social launch",
     "@hellomikalaurent",
     "YouTube",
+    "Facebook",
+    "61591312558404",
     "First 9-post launch grid",
     "Website Launch",
     "Portfolio",
