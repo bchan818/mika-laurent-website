@@ -39,6 +39,7 @@ REQUIRED_TEXT = [
     "First 9-post launch grid",
     "Featured posts",
     "DZ8G2tHDwi3",
+    "122095256211377085",
     "Website Launch",
     "Portfolio",
     "Brand Visuals",
