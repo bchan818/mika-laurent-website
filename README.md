@@ -13,6 +13,7 @@ A clean, soft beige landing page concept for Mika Laurent, an AI fashion/lifesty
 - `scripts/main.js` — mailto contact-form behavior
 - `social-launch-kit.md` — recommended handles, bios, AI disclosure wording, first 9 launch posts, and social setup checklist
 - `social-profile-links.md` — profile-link walkthrough for Instagram, TikTok, YouTube, and Facebook
+- `social-first-posts.md` — platform-specific pinned/intro post copy for Instagram, TikTok, YouTube, and Facebook
 - `assets/social/` — first 9 launch post visuals and text-card assets
 - `scripts/verify.py` — local verification script
 

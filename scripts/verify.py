@@ -19,6 +19,7 @@ REQUIRED_FILES = [
     ROOT / "scripts" / "main.js",
     ROOT / "social-launch-kit.md",
     ROOT / "social-profile-links.md",
+    ROOT / "social-first-posts.md",
     ROOT / "assets" / "ai-model-portrait.svg",
 ]
 REQUIRED_TEXT = [

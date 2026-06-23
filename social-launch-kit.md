@@ -166,3 +166,14 @@ Visual: Website screenshot or hero portrait.
 - Day 1: Introduction, Soft Studio, AI Disclosure
 - Day 2: Beauty Close-Up, Luxury Editorial, Modern Casual
 - Day 3: Fashion Profile, Brand Campaign, Website Launch
+
+## Platform-Specific First Posts
+
+Use `social-first-posts.md` for ready-to-paste first pinned posts for:
+
+- Instagram
+- TikTok
+- YouTube
+- Facebook
+
+Recommended first move: publish and pin the intro/disclosure post on each platform, then send the public post URLs back so the website can add a Featured Posts section.
