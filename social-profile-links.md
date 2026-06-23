@@ -2,13 +2,14 @@
 
 ## Confirmed
 
+- Instagram: https://www.instagram.com/hellomikalaurent/
+- TikTok: https://www.tiktok.com/@hellomikalaurent
+- YouTube: https://www.youtube.com/@hellomikalaurent
 - Facebook: https://www.facebook.com/profile.php?id=61591312558404
 - Email: hellomikalaurent@gmail.com
 - Preferred handle: hellomikalaurent
 
-## Recommended profile URLs
-
-Use these once each account is created and the handle is claimed:
+## Live profile URLs
 
 ```text
 Instagram: https://www.instagram.com/hellomikalaurent/

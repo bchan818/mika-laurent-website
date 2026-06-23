@@ -44,3 +44,10 @@ If using the Vercel dashboard, upload/import this folder as a static project:
 Note: The hero image is a realistic AI-generated portrait asset saved locally as `assets/mika-laurent-hero.jpg`.
 
 Contact inquiries are currently routed to `hellomikalaurent@gmail.com`.
+
+Confirmed social profiles:
+
+- Instagram: https://www.instagram.com/hellomikalaurent/
+- TikTok: https://www.tiktok.com/@hellomikalaurent
+- YouTube: https://www.youtube.com/@hellomikalaurent
+- Facebook: https://www.facebook.com/profile.php?id=61591312558404
