@@ -37,6 +37,8 @@ REQUIRED_TEXT = [
     "Facebook",
     "61591312558404",
     "First 9-post launch grid",
+    "Featured posts",
+    "DZ8G2tHDwi3",
     "Website Launch",
     "Portfolio",
     "Brand Visuals",

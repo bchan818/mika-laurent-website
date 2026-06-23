@@ -208,11 +208,16 @@ figcaption strong {
   color: var(--brown);
 }
 
+section[id] {
+  scroll-margin-top: 110px;
+}
+
 .about,
 .story,
 .gallery-section,
 .portfolio,
 .social,
+.featured,
 .cta {
   position: relative;
   z-index: 1;
@@ -335,7 +340,8 @@ h2 {
   border-top: 1px solid rgba(128, 107, 88, 0.16);
 }
 
-.social {
+.social,
+.featured {
   border-top: 1px solid rgba(128, 107, 88, 0.16);
 }
 
@@ -408,6 +414,51 @@ h2 {
 
 .launch-plan strong {
   color: var(--white);
+}
+
+.featured-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 18px;
+}
+
+.featured-grid article {
+  padding: 34px;
+  border-radius: 30px;
+  background: linear-gradient(160deg, rgba(255, 253, 248, 0.82), rgba(234, 217, 194, 0.42));
+  border: 1px solid rgba(128, 107, 88, 0.12);
+  box-shadow: 0 22px 70px rgba(47, 36, 29, 0.08);
+}
+
+.featured-grid span {
+  color: var(--beige-deep);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.76rem;
+  font-weight: 800;
+}
+
+.featured-grid h3 {
+  margin: 22px 0 12px;
+  font-size: 2rem;
+  letter-spacing: -0.06em;
+}
+
+.featured-grid p {
+  margin: 0 0 18px;
+  color: var(--taupe);
+  line-height: 1.7;
+}
+
+.text-link {
+  color: var(--brown);
+  font-weight: 800;
+  text-decoration: none;
+  border-bottom: 2px solid var(--beige-deep);
+}
+
+.text-link:hover {
+  color: var(--beige-deep);
 }
 
 .portfolio-grid {
@@ -499,6 +550,7 @@ h2 {
   .gallery-section,
   .portfolio,
   .social,
+  .featured,
   .cta {
     animation: fadeUp 700ms ease both;
   }

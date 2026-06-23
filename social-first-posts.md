@@ -140,4 +140,8 @@ Profile actions:
 
 ## After posting
 
-Send the final public post URLs back here. Then update the website with a “Featured Posts” section linking directly to the pinned posts.
+Published intro post URLs received so far:
+
+- Instagram: https://www.instagram.com/p/DZ8G2tHDwi3/
+
+Send the remaining final public post URLs back here. Then update the website with additional Featured Posts cards linking directly to the pinned posts.

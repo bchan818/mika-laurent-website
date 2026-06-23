@@ -52,3 +52,7 @@ Confirmed social profiles:
 - TikTok: https://www.tiktok.com/@hellomikalaurent
 - YouTube: https://www.youtube.com/@hellomikalaurent
 - Facebook: https://www.facebook.com/profile.php?id=61591312558404
+
+Featured social posts:
+
+- Instagram intro: https://www.instagram.com/p/DZ8G2tHDwi3/
