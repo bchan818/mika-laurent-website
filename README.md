@@ -16,6 +16,7 @@ A clean, soft beige landing page concept for Mika Laurent, an AI fashion/lifesty
 - `social-first-posts.md` — platform-specific pinned/intro post copy for Instagram, TikTok, YouTube, and Facebook
 - `assets/social/` — first 9 launch post visuals, text-card assets, and vertical intro video
 - `scripts/make_intro_video.py` — generates the 1080x1920 TikTok/YouTube Shorts intro video
+- `scripts/make_youtube_short.py` — generates the 1080x1920 YouTube-specific Short video
 - `scripts/verify.py` — local verification script
 
 ## Run locally

@@ -83,13 +83,19 @@ Profile actions:
 ## YouTube first pinned Short
 
 Asset idea:
-- Use the created vertical intro video:
+- Use the created YouTube-specific vertical Short:
 
 ```text
-assets/social/mika-intro-short.mp4
+assets/social/mika-youtube-short.mp4
 ```
 
-- Backup asset: `assets/social/09-website-launch.svg` or `assets/social/01-introduction.jpg`.
+- Preview image:
+
+```text
+assets/social/mika-youtube-short-preview.jpg
+```
+
+- Backup asset: `assets/social/mika-intro-short.mp4`, `assets/social/09-website-launch.svg`, or `assets/social/01-introduction.jpg`.
 
 Short title:
 
