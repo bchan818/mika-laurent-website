@@ -103,6 +103,23 @@ nav a:hover {
   padding: 38px 0 92px;
 }
 
+.press-hero {
+  min-height: auto;
+  display: grid;
+  grid-template-columns: 1.02fr 0.98fr;
+  gap: 64px;
+  align-items: center;
+  padding: 72px 0 92px;
+}
+
+.press-hero h1 {
+  font-size: clamp(3.5rem, 8vw, 7.2rem);
+}
+
+.press-card .portrait-wrap {
+  min-height: 540px;
+}
+
 .eyebrow {
   margin: 0 0 18px;
   color: var(--beige-deep);
@@ -219,6 +236,7 @@ section[id] {
 .social,
 .featured,
 .calendar,
+.press-section,
 .cta {
   position: relative;
   z-index: 1;
@@ -507,6 +525,81 @@ h2 {
   box-shadow: none;
 }
 
+.press-section {
+  border-top: 1px solid rgba(128, 107, 88, 0.16);
+}
+
+.press-grid,
+.asset-grid {
+  display: grid;
+  gap: 18px;
+}
+
+.press-grid.two-column {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.press-grid article,
+.link-grid a,
+.asset-grid article {
+  padding: 30px;
+  border-radius: 30px;
+  background: linear-gradient(160deg, rgba(255, 253, 248, 0.74), rgba(234, 217, 194, 0.38));
+  border: 1px solid rgba(128, 107, 88, 0.12);
+  box-shadow: 0 18px 50px rgba(83, 60, 38, 0.08);
+}
+
+.press-grid span {
+  color: var(--beige-deep);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.76rem;
+  font-weight: 800;
+}
+
+.press-grid p {
+  margin: 18px 0 0;
+  color: var(--taupe);
+  line-height: 1.75;
+}
+
+.link-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.link-grid a {
+  color: var(--brown);
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.asset-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.asset-grid img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: 22px;
+  margin-bottom: 20px;
+}
+
+.asset-grid h3 {
+  margin: 0 0 14px;
+  font-size: 1.35rem;
+  letter-spacing: -0.045em;
+}
+
+.press-featured-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.press-disclosure {
+  max-width: 860px;
+}
+
 .portfolio-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -598,6 +691,7 @@ h2 {
   .social,
   .featured,
   .calendar,
+  .press-section,
   .cta {
     animation: fadeUp 700ms ease both;
   }
@@ -675,12 +769,16 @@ h2 {
   }
 
   .hero,
+  .press-hero,
   .about,
   .story,
   .gallery-grid,
   .portfolio-grid,
   .social-grid,
   .featured-grid,
+  .press-grid.two-column,
+  .link-grid,
+  .asset-grid,
   .launch-plan ol,
   .contact-form,
   .site-footer {

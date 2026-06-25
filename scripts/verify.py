@@ -4,6 +4,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 REQUIRED_FILES = [
     ROOT / "index.html",
+    ROOT / "press-kit.html",
     ROOT / "styles.css",
     ROOT / "assets" / "mika-laurent-hero.jpg",
     ROOT / "assets" / "gallery" / "soft-studio.jpg",
@@ -48,6 +49,8 @@ REQUIRED_TEXT = [
     "Content calendar",
     "Open Calendar",
     "mika-14-day-content-calendar.md",
+    "Press Kit",
+    "press-kit.html",
     "DZ8G2tHDwi3",
     "122095256211377085",
     "7654729929526971679",
@@ -95,6 +98,7 @@ for path in REQUIRED_FILES:
         raise SystemExit(f"Missing required file: {path}")
 
 html = (ROOT / "index.html").read_text(encoding="utf-8")
+press_html = (ROOT / "press-kit.html").read_text(encoding="utf-8")
 css = (ROOT / "styles.css").read_text(encoding="utf-8")
 parser = Parser()
 parser.feed(html)
@@ -102,6 +106,21 @@ parser.feed(html)
 for text in REQUIRED_TEXT:
     if text not in html:
         raise SystemExit(f"Missing required text: {text}")
+
+for text in [
+    "Mika Laurent | Press Kit",
+    "Media kit for a digital fashion muse",
+    "Short bio",
+    "Long bio",
+    "Recommended disclosure",
+    "Official Mika Laurent links",
+    "Creative assets for review and sharing",
+    "hellomikalaurent@gmail.com",
+    "assets/mika-laurent-hero.jpg",
+    "assets/social/mika-youtube-short.mp4",
+]:
+    if text not in press_html:
+        raise SystemExit(f"Missing required press kit text: {text}")
 
 if "styles.css" not in parser.links:
     raise SystemExit("index.html does not link styles.css")
