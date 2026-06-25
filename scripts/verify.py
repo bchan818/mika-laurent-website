@@ -47,6 +47,7 @@ REQUIRED_TEXT = [
     "DZ8G2tHDwi3",
     "122095256211377085",
     "7654729929526971679",
+    "XFcMqR0LX4o",
     "Website Launch",
     "Portfolio",
     "Brand Visuals",

@@ -162,5 +162,6 @@ Published intro post URLs received so far:
 - Instagram: https://www.instagram.com/p/DZ8G2tHDwi3/
 - Facebook: https://www.facebook.com/photo/?fbid=122095256211377085
 - TikTok: https://www.tiktok.com/@hellomikalaurent/video/7654729929526971679
+- YouTube Short: https://youtube.com/shorts/XFcMqR0LX4o
 
-Send the remaining final public post URLs back here. Then update the website with additional Featured Posts cards linking directly to the pinned posts.
+All four launch links are now available and can remain featured on the website.
