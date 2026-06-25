@@ -6,6 +6,7 @@ A clean, soft beige landing page concept for Mika Laurent, an AI fashion/lifesty
 
 - `index.html` — one-page landing website with gallery, social links, featured posts, and content calendar CTA
 - `press-kit.html` — press/media kit with bios, AI disclosure, official links, featured posts, and creative assets
+- `assets/downloads/mika-laurent-media-kit.pdf` — downloadable one-page PDF media kit
 - `styles.css` — responsive beige design with clean sans-serif typography
 - `assets/mika-laurent-hero.jpg` — realistic AI model hero visual
 - `assets/gallery/*.jpg` — six-gallery image set for Soft Studio, Luxury Editorial, Modern Casual, Beauty Close-Up, Fashion Profile, and Brand Campaign
@@ -19,6 +20,7 @@ A clean, soft beige landing page concept for Mika Laurent, an AI fashion/lifesty
 - `assets/social/` — first 9 launch post visuals, text-card assets, and vertical intro video
 - `scripts/make_intro_video.py` — generates the 1080x1920 TikTok/YouTube Shorts intro video
 - `scripts/make_youtube_short.py` — generates the 1080x1920 YouTube-specific Short video
+- `scripts/make_media_kit_pdf.py` — generates the downloadable one-page PDF media kit
 - `scripts/verify.py` — local verification script
 
 ## Run locally

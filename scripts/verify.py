@@ -5,6 +5,7 @@ ROOT = Path(__file__).resolve().parents[1]
 REQUIRED_FILES = [
     ROOT / "index.html",
     ROOT / "press-kit.html",
+    ROOT / "assets" / "downloads" / "mika-laurent-media-kit.pdf",
     ROOT / "styles.css",
     ROOT / "assets" / "mika-laurent-hero.jpg",
     ROOT / "assets" / "gallery" / "soft-studio.jpg",
@@ -24,6 +25,7 @@ REQUIRED_FILES = [
     ROOT / "scripts" / "main.js",
     ROOT / "scripts" / "make_intro_video.py",
     ROOT / "scripts" / "make_youtube_short.py",
+    ROOT / "scripts" / "make_media_kit_pdf.py",
     ROOT / "social-launch-kit.md",
     ROOT / "social-profile-links.md",
     ROOT / "social-first-posts.md",
@@ -118,6 +120,8 @@ for text in [
     "hellomikalaurent@gmail.com",
     "assets/mika-laurent-hero.jpg",
     "assets/social/mika-youtube-short.mp4",
+    "assets/downloads/mika-laurent-media-kit.pdf",
+    "Download PDF",
 ]:
     if text not in press_html:
         raise SystemExit(f"Missing required press kit text: {text}")
