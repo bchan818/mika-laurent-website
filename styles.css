@@ -236,6 +236,7 @@ section[id] {
 .social,
 .featured,
 .calendar,
+.downloads,
 .press-section,
 .cta {
   position: relative;
@@ -361,7 +362,8 @@ h2 {
 
 .social,
 .featured,
-.calendar {
+.calendar,
+.downloads {
   border-top: 1px solid rgba(128, 107, 88, 0.16);
 }
 
@@ -523,6 +525,41 @@ h2 {
   background: var(--cream);
   color: var(--brown);
   box-shadow: none;
+}
+
+.download-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.download-grid article {
+  padding: 34px;
+  min-height: 260px;
+  border-radius: 30px;
+  background: linear-gradient(160deg, rgba(255, 253, 248, 0.82), rgba(234, 217, 194, 0.42));
+  border: 1px solid rgba(128, 107, 88, 0.12);
+  box-shadow: 0 22px 70px rgba(47, 36, 29, 0.08);
+}
+
+.download-grid span {
+  color: var(--beige-deep);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.76rem;
+  font-weight: 800;
+}
+
+.download-grid h3 {
+  margin: 28px 0 12px;
+  font-size: 1.8rem;
+  letter-spacing: -0.055em;
+}
+
+.download-grid p {
+  margin: 0 0 18px;
+  color: var(--taupe);
+  line-height: 1.7;
 }
 
 .press-section {
@@ -691,6 +728,7 @@ h2 {
   .social,
   .featured,
   .calendar,
+  .downloads,
   .press-section,
   .cta {
     animation: fadeUp 700ms ease both;
@@ -776,6 +814,7 @@ h2 {
   .portfolio-grid,
   .social-grid,
   .featured-grid,
+  .download-grid,
   .press-grid.two-column,
   .link-grid,
   .asset-grid,
