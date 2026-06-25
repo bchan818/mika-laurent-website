@@ -218,6 +218,7 @@ section[id] {
 .portfolio,
 .social,
 .featured,
+.calendar,
 .cta {
   position: relative;
   z-index: 1;
@@ -341,7 +342,8 @@ h2 {
 }
 
 .social,
-.featured {
+.featured,
+.calendar {
   border-top: 1px solid rgba(128, 107, 88, 0.16);
 }
 
@@ -461,6 +463,50 @@ h2 {
   color: var(--beige-deep);
 }
 
+.calendar-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  padding: 36px;
+  border-radius: 34px;
+  background: rgba(47, 36, 29, 0.92);
+  color: var(--cream);
+  box-shadow: 0 24px 70px rgba(47, 36, 29, 0.16);
+}
+
+.calendar-card span {
+  display: inline-flex;
+  margin-bottom: 18px;
+  color: var(--beige);
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.75rem;
+  font-weight: 800;
+}
+
+.calendar-card h3 {
+  max-width: 720px;
+  margin: 0 0 14px;
+  font-size: clamp(1.8rem, 4vw, 3.2rem);
+  line-height: 1;
+  letter-spacing: -0.065em;
+}
+
+.calendar-card p {
+  max-width: 680px;
+  margin: 0;
+  color: rgba(251, 246, 237, 0.82);
+  line-height: 1.7;
+}
+
+.calendar-card .button {
+  flex: 0 0 auto;
+  background: var(--cream);
+  color: var(--brown);
+  box-shadow: none;
+}
+
 .portfolio-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -551,6 +597,7 @@ h2 {
   .portfolio,
   .social,
   .featured,
+  .calendar,
   .cta {
     animation: fadeUp 700ms ease both;
   }
@@ -642,9 +689,15 @@ h2 {
   }
 
   .site-footer,
+  .calendar-card,
   .footer-links {
     text-align: left;
     justify-content: flex-start;
+  }
+
+  .calendar-card {
+    align-items: flex-start;
+    flex-direction: column;
   }
 
   .hero {
