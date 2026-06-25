@@ -26,6 +26,7 @@ REQUIRED_FILES = [
     ROOT / "social-launch-kit.md",
     ROOT / "social-profile-links.md",
     ROOT / "social-first-posts.md",
+    ROOT / "mika-14-day-content-calendar.md",
     ROOT / "assets" / "ai-model-portrait.svg",
 ]
 REQUIRED_TEXT = [
