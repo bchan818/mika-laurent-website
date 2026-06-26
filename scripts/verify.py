@@ -5,6 +5,7 @@ ROOT = Path(__file__).resolve().parents[1]
 REQUIRED_FILES = [
     ROOT / "index.html",
     ROOT / "press-kit.html",
+    ROOT / "privacy-disclosure.html",
     ROOT / "robots.txt",
     ROOT / "sitemap.xml",
     ROOT / "assets" / "social-preview.jpg",
@@ -58,6 +59,7 @@ REQUIRED_TEXT = [
     "mika-14-day-content-calendar.md",
     "Press Kit",
     "press-kit.html",
+    "privacy-disclosure.html",
     "Brand assets",
     "Download Mika’s media kit and launch assets.",
     "One-page media kit",
@@ -121,6 +123,7 @@ for path in REQUIRED_FILES:
 
 html = (ROOT / "index.html").read_text(encoding="utf-8")
 press_html = (ROOT / "press-kit.html").read_text(encoding="utf-8")
+privacy_html = (ROOT / "privacy-disclosure.html").read_text(encoding="utf-8")
 main_js = (ROOT / "scripts" / "main.js").read_text(encoding="utf-8")
 css = (ROOT / "styles.css").read_text(encoding="utf-8")
 parser = Parser()
@@ -154,6 +157,21 @@ for text in [
 ]:
     if text not in press_html:
         raise SystemExit(f"Missing required press kit text: {text}")
+
+for text in [
+    "Mika Laurent | Privacy & AI Disclosure",
+    "Mika Laurent is not a real person",
+    "What not to send",
+    "Privacy-friendly measurement only",
+    "current tracking is designed for basic click measurement",
+    "analytics-tracking-plan.md",
+    "data-track",
+    "contact_intent",
+    "application/ld+json",
+    "assets/social-preview.jpg",
+]:
+    if text not in privacy_html:
+        raise SystemExit(f"Missing required privacy/disclosure text: {text}")
 
 if "styles.css" not in parser.links:
     raise SystemExit("index.html does not link styles.css")

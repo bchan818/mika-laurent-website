@@ -6,6 +6,7 @@ A clean, soft beige landing page concept for Mika Laurent, an AI fashion/lifesty
 
 - `index.html` — one-page landing website with gallery, social links, featured posts, content calendar CTA, and brand asset downloads
 - `press-kit.html` — press/media kit with bios, AI disclosure, official links, featured posts, and creative assets
+- `privacy-disclosure.html` — plain-language privacy, AI disclosure, media usage, contact handling, and analytics page
 - `assets/downloads/mika-laurent-media-kit.pdf` — downloadable one-page PDF media kit
 - `assets/social-preview.jpg` — 1200x630 social preview image for shared links
 - `robots.txt` and `sitemap.xml` — basic crawl and discovery files
