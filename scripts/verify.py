@@ -33,6 +33,7 @@ REQUIRED_FILES = [
     ROOT / "social-launch-kit.md",
     ROOT / "social-profile-links.md",
     ROOT / "social-first-posts.md",
+    ROOT / "analytics-tracking-plan.md",
     ROOT / "mika-14-day-content-calendar.md",
     ROOT / "assets" / "ai-model-portrait.svg",
 ]
@@ -80,6 +81,9 @@ REQUIRED_TEXT = [
     "application/ld+json",
     "assets/social-preview.jpg",
     "data-contact-form",
+    "data-track",
+    "media_kit_pdf_download",
+    "featured_post_click",
     "site-footer",
     "soft beige",
     "Explore the Gallery",
@@ -117,6 +121,7 @@ for path in REQUIRED_FILES:
 
 html = (ROOT / "index.html").read_text(encoding="utf-8")
 press_html = (ROOT / "press-kit.html").read_text(encoding="utf-8")
+main_js = (ROOT / "scripts" / "main.js").read_text(encoding="utf-8")
 css = (ROOT / "styles.css").read_text(encoding="utf-8")
 parser = Parser()
 parser.feed(html)
@@ -143,12 +148,24 @@ for text in [
     "twitter:image:alt",
     "application/ld+json",
     "assets/social-preview.jpg",
+    "data-track",
+    "media_kit_pdf_download",
+    "contact_intent",
 ]:
     if text not in press_html:
         raise SystemExit(f"Missing required press kit text: {text}")
 
 if "styles.css" not in parser.links:
     raise SystemExit("index.html does not link styles.css")
+
+for text in [
+    "mika:track",
+    "window.dataLayer.push",
+    "debugTracking=true",
+    "contact_intent",
+]:
+    if text not in main_js:
+        raise SystemExit(f"Missing tracking script text: {text}")
 
 if not any(img.get("src") == "assets/mika-laurent-hero.jpg" and img.get("alt") for img in parser.images):
     raise SystemExit("Hero image missing or missing alt text")
