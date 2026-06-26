@@ -22,6 +22,7 @@ A clean, soft beige landing page concept for Mika Laurent, an AI fashion/lifesty
 - `social-first-posts.md` — platform-specific pinned/intro post copy for Instagram, TikTok, YouTube, and Facebook
 - `analytics-tracking-plan.md` — privacy-friendly event tracking plan for clicks, downloads, and contact intent
 - `mika-14-day-content-calendar.md` — two-week posting plan with captions, assets, disclosures, and platform guidance
+- `mika-launch-maintenance-checklist.md` — recurring checklist for link checks, disclosures, assets, analytics events, contact testing, and monthly reviews
 - `assets/social/` — first 9 launch post visuals, text-card assets, and vertical intro video
 - `scripts/make_intro_video.py` — generates the 1080x1920 TikTok/YouTube Shorts intro video
 - `scripts/make_youtube_short.py` — generates the 1080x1920 YouTube-specific Short video
