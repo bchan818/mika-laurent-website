@@ -16,6 +16,11 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://bchan818.github.io/mika-laurent-website/terms-asset-use.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://bchan818.github.io/mika-laurent-website/mika-14-day-content-calendar.md</loc>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>

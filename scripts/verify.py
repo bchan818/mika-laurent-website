@@ -6,6 +6,7 @@ REQUIRED_FILES = [
     ROOT / "index.html",
     ROOT / "press-kit.html",
     ROOT / "privacy-disclosure.html",
+    ROOT / "terms-asset-use.html",
     ROOT / "robots.txt",
     ROOT / "sitemap.xml",
     ROOT / "assets" / "social-preview.jpg",
@@ -60,6 +61,7 @@ REQUIRED_TEXT = [
     "Press Kit",
     "press-kit.html",
     "privacy-disclosure.html",
+    "terms-asset-use.html",
     "Brand assets",
     "Download Mika’s media kit and launch assets.",
     "One-page media kit",
@@ -124,6 +126,7 @@ for path in REQUIRED_FILES:
 html = (ROOT / "index.html").read_text(encoding="utf-8")
 press_html = (ROOT / "press-kit.html").read_text(encoding="utf-8")
 privacy_html = (ROOT / "privacy-disclosure.html").read_text(encoding="utf-8")
+terms_html = (ROOT / "terms-asset-use.html").read_text(encoding="utf-8")
 main_js = (ROOT / "scripts" / "main.js").read_text(encoding="utf-8")
 css = (ROOT / "styles.css").read_text(encoding="utf-8")
 parser = Parser()
@@ -172,6 +175,25 @@ for text in [
 ]:
     if text not in privacy_html:
         raise SystemExit(f"Missing required privacy/disclosure text: {text}")
+
+for text in [
+    "Mika Laurent | Terms & Asset Use",
+    "Usage boundaries for Mika Laurent assets",
+    "This is plain-language project guidance, not legal advice",
+    "Mika Laurent is fictional and AI-generated",
+    "Reference and share with clear disclosure",
+    "Do not mislead, impersonate, or exploit",
+    "Ask before using Mika in commercial campaigns",
+    "No real-world endorsement",
+    "assets/downloads/mika-laurent-media-kit.pdf",
+    "privacy-disclosure.html",
+    "data-track",
+    "contact_intent",
+    "application/ld+json",
+    "assets/social-preview.jpg",
+]:
+    if text not in terms_html:
+        raise SystemExit(f"Missing required terms/asset use text: {text}")
 
 if "styles.css" not in parser.links:
     raise SystemExit("index.html does not link styles.css")
